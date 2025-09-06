@@ -8,7 +8,7 @@ pkgs.mkShell {
     gnumake
     SDL2
     libpng
-    gcc12
+    gcc14
     ccache
     libpng12
     (python3.withPackages(python: [
