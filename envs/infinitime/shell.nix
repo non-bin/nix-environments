@@ -17,7 +17,7 @@ pkgs.lib.warnOnInstantiate
           nrf5-sdk
           zlib
           cmake
-          gcc10
+          gcc14
           adafruit-nrfutil
           mcuboot-imgtool
           (python3.withPackages (python: [
