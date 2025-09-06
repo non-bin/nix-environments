@@ -19,4 +19,5 @@
   spec-benchmark = import ./envs/spec-benchmark/shell.nix { inherit pkgs; };
   xilinx-vitis = import ./envs/xilinx-vitis/shell.nix { inherit pkgs; };
   yocto = import ./envs/yocto/shell.nix { inherit pkgs; };
+  zmk = import ./envs/zmk/shell.nix { inherit pkgs; };
 }
