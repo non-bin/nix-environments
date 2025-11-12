@@ -44,6 +44,7 @@ let
       # in buildFHSEnv, we just install both variants
       ncurses'
       (ncurses'.override { unicodeSupport = false; })
+      openssh
       patch
       perl
       (python3.withPackages (ps: [ ps.setuptools ps.pyaml ps.websockets ] ++ extraPythonPkgs))
